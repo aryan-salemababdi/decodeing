@@ -1,6 +1,6 @@
 message = input("please enter your message: ").upper();
 letter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-file = open("A:\project & example python\project\deCodeing(Hacking)\words.txt","r");
+file = open("words.txt","r");
 readFile = file.readlines();
 newFile = [];
 for i in readFile:
